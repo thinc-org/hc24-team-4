@@ -277,7 +277,7 @@ export default function Dashboard({ navigation }) {
                       }}
                     >
                       <View style={{ flexDirection: "row" }}>
-                        <View style={{ width: "80%" }}>
+                        <View style={{ width: "70%" }}>
                           <Text
                             style={{
                               fontWeight: "bold",
@@ -311,13 +311,13 @@ export default function Dashboard({ navigation }) {
                           </Text>
                         </View>
 
-                        <View>
+                        <View style={{}}>
                           <View
                             style={{
                               backgroundColor: StatusWithColor({
                                 status: item.status,
                               }),
-                              padding: 5,
+                              padding: 10,
                               borderRadius: 15,
                               width: 30,
                               height: 30,
